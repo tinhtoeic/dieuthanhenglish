@@ -3,10 +3,181 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Diệu Thanh English</title>
+    <title>Dieu Thanh English</title>
+    <link
+      href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSopIkIoVqSQ4ao8v_6pxCvBS-RWWNW5r49_hB1CXUQyn6UA2r-MluQ4_LHGYqorIzCaM8&usqp=CAU"
+      rel="Diệu Thanh English"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Inter", sans-serif;
+      }
+      body {
+        background: linear-gradient(to bottom, #7ad1f3, #f5b8e1);
+        color: #333;
+        padding: 20px;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+      .user-info {
+        display: flex;
+        align-items: center;
+      }
+      .user-info img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+      }
+      .section-title {
+        margin: 20px 0 10px;
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 15px;
+        margin-bottom: 30px;
+      }
+      .card {
+        background: white;
+        border-radius: 12px;
+        padding: 16px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+      }
+
+      .card h4 {
+        font-size: 14px;
+        margin-bottom: 6px;
+      }
+      .card span {
+        background: #d0f0e4;
+        padding: 4px 8px;
+        border-radius: 8px;
+        font-size: 13px;
+        display: inline-block;
+      }
+      .upgrade-button {
+        background: white;
+        color: orange;
+        padding: 8px 14px;
+        border-radius: 12px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+        text-decoration: none;
+        font-weight: bold;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      a:visited {
+        color: inherit;
+      }
+    </style>
   </head>
   <body>
-    <h1>Diệu Thanh English</h1>
-    <h2>Đào tạo Toeic và Ielts</h2>
+    <div class="header">
+      <div class="user-info">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSopIkIoVqSQ4ao8v_6pxCvBS-RWWNW5r49_hB1CXUQyn6UA2r-MluQ4_LHGYqorIzCaM8&usqp=CAU"
+          alt="avatar"
+        />
+        <div>
+          <p>Xin chào</p>
+          <strong>Tình Nguyễn</strong>
+        </div>
+      </div>
+      <a href="#" class="upgrade-button">⭐ Upgrade</a>
+    </div>
+
+    <div>
+      <div class="section-title">Luyện Nghe</div>
+      <div class="grid">
+        <a href="practice1.html"
+          ><div class="card">
+            <h4>Luyện Part 1</h4>
+            <span>🖼️ Mô Tả Hình Ảnh</span>
+          </div></a
+        >
+        <a href="practice2.html"
+          ><div class="card">
+            <h4>Luyện Part 2</h4>
+            <span>💬 Hỏi Và Trả Lời</span>
+          </div></a
+        >
+        <a href="practice3.html"
+          ><div class="card">
+            <h4>Luyện Part 3</h4>
+            <span>👥 Đoạn Hội Thoại</span>
+          </div></a
+        >
+        <a href="practice4.html"
+          ><div class="card">
+            <h4>Luyện Part 4</h4>
+            <span>📞 Bài Nói Chuyện</span>
+          </div></a
+        >
+      </div>
+
+      <div class="section-title">Luyện Đọc</div>
+      <div class="grid">
+        <div class="card">
+          <h4>Luyện Part 5</h4>
+          <span>🔤 Hoàn Thành Câu</span>
+        </div>
+        <div class="card">
+          <h4>Luyện Part 6</h4>
+          <span>📝 Hoàn Thành Đoạn Văn</span>
+        </div>
+        <div class="card">
+          <h4>Luyện Part 7</h4>
+          <span>📖 Đọc Hiểu</span>
+        </div>
+      </div>
+
+      <div class="section-title">Luyện Nói & Viết</div>
+      <div class="grid">
+        <div class="card">
+          <h4>Luyện Nói</h4>
+          <span>🎙️ Nói</span>
+        </div>
+        <div class="card">
+          <h4>Luyện Viết</h4>
+          <span>✍️ Viết</span>
+        </div>
+      </div>
+
+      <div class="section-title">Thi Thử</div>
+      <div class="grid">
+        <div class="card">
+          <h4>Thi Thử Phần Nghe</h4>
+          <span>🎧 Nghe</span>
+        </div>
+        <div class="card">
+          <h4>Thi Thử Phần Đọc</h4>
+          <span>📚 Đọc</span>
+        </div>
+        <div class="card">
+          <h4>Thi Thử Toàn Bài</h4>
+          <span>✅ Toàn Bài</span>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
